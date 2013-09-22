@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyBooksBox</string>
+    <string name="action_settings">Settings</string>
+   
+    <string name="booksbox">My BooksBox</string>
+    <string name="conexion">Conectar con Dropbox</string>
+    <string name="ic_libro">Libro</string>
+    <string name="button_orden1">Ordenar \n alfabéticamente</string>
+    <string name="button_orden2">Ordenar por fecha</string>
+    
+
+
+
+</resources>

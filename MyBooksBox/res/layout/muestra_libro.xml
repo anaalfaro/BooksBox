@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/fondo_app3">
+    
+    <TextView android:id="@+id/cabecera"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/booksbox" 
+			android:textColor="#ffffff"
+			android:textStyle="bold"
+			 android:textSize="30sp"/>
+    
+    <TextView android:id="@+id/titulo"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:layout_marginBottom="20dp"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			 android:textSize="25sp"/>
+    
+    <TextView android:id="@+id/fecha"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:layout_marginBottom="20dp"
+			android:textColor="#000000"
+			 android:textSize="20sp"/>
+    
+    <ImageView
+        android:id="@+id/iconolibro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/ic_libro"
+        android:gravity="center" />
+
+</LinearLayout>
